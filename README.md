@@ -37,3 +37,8 @@ O servidor será iniciado na porta 3000. Você verá uma mensagem no terminal in
 Configuração do Frontend (HTML, CSS, JavaScript) O frontend é uma aplicação simples em HTML/CSS/JS puro.
 
 Navegue até o diretório do frontend e abra o arquivo index.html em seu navegador web preferido.
+
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/micheecelestin/)
+[![whatsaap](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5547988985785)
