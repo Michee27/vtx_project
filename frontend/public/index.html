@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VTX - Apostas Esportivas</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1>VTX Aposta</h1>
+                <p class="slogan">Sua melhor aposta no esporte!</p>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <section id="events-list">
+                <h2>Eventos Disponíveis</h2>
+                <div id="events-container" class="grid-container">
+                    <p>Carregando eventos...</p>
+                </div>
+            </section>
+
+            <section id="bet-calculator" class="hidden">
+                <h2>Simular Aposta</h2>
+                <h3 id="selected-event-title"></h3>
+                <div id="odds-container"></div>
+                <div class="bet-input">
+                    <label for="bet-amount">Valor da Aposta (R$):</label>
+                    <input type="number" id="bet-amount" min="1" value="10" />
+                </div>
+                <div class="result-display">
+                    <p>
+                        Retorno Potencial:
+                        <span id="potential-return">R$ 0.00</span>
+                    </p>
+                </div>
+                <div class="bet-actions">
+                    <button id="back-to-events">Voltar para Eventos</button>
+                    <button id="add-to-cart-btn" class="hidden">
+                        Adicionar ao Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section id="bet-cart" class="hidden">
+                <h2>Carrinho de Apostas</h2>
+                <ul id="cart-items"></ul>
+                <p>Total a Apostar: <span id="cart-total-bet">R$ 0.00</span></p>
+                <p>
+                    Retorno Potencial Total:
+                    <span id="cart-total-return">R$ 0.00</span>
+                </p>
+                <div class="cart-actions">
+                    <button id="clear-cart-btn">Limpar Carrinho</button>
+                    <button id="confirm-bet-btn">Confirmar Aposta</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 BetHouse - Todos os direitos reservados.</p>
+        </footer>
+
+        <script src="../src/js/app.js" type="module"></script>
+    </body>
+</html>
